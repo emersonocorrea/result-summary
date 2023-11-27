@@ -14,37 +14,43 @@
     
     <title>Result Summary</title>
 </head>
-<body class="bg-lightLavender font-['hanken']">
-    <div class="container bg-lightRoyalBlue text-white rounded-b-2xl ">
-        <div class="container flex flex-col gap-4 items-center">
-            <small>Your Result</small>
-            <div>
-                <h1>76</h1>
-                <small>of 100</small>
-            </div>
-            <div>
-                <h2>Greate</h2>
-                <p>Your performance exceed 65% of the people conducting the test here!</p>
+<body class="font-['hanken']">
+    <div>
+        <div class="container bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-white rounded-b-3xl p-4">
+            <div class="container flex flex-col gap-4 items-center">
+                <small class="text-2xl text-lightLavender">Your Result</small>
+                <div class="rounded-full bg-gradient-to-b from-lightRoyalBlue to-transparent w-28 h-28 flex flex-col items-center justify-center">
+                    <h1 class="text-7xl font-extrabold">76</h1>
+                    <smal class="text-sm text-lightSlateBlue ">of 100</smal>
+                </div>
+                <div class="text-center">
+                    <h2 class="font-bold text-2xl">Greate</h2>
+                    <p class="text-base text-lightLavender">Your performance exceed 65% of the people conducting the test here!</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="bg-white">
-        <p>Summary</p>
-        <ul>
-            <li>
-                <p>reaction</p>
-            </li>
-            <li>
-                <p>memory</p>
-            </li>
-            <li>
-                <p>verbal</p>
-            </li>
-            <li>
-                <p>visual</p>
-            </li>
-        </ul>
-        <button>Continue</button>
-    </div>    
+        <div class="bg-white">
+            <ul class="p-4 flex flex-col gap-4">
+                <h3 class="font-bold text-2xl">Summary</h3>
+                <li class="bg-lightRed bg-opacity-10 p-4 rounded-lg flex justify-between">
+                    <p class="text-lightRed font-bold">Reaction</p>
+                    <p class="font-bold">80 / 100</p>
+                </li>
+                <li class="bg-orangeyYellow bg-opacity-10 p-4 rounded-lg flex justify-between">
+                    <p class="text-orangeyYellow font-bold">Memory</p>
+                    <p class="font-bold">92 /100</p>
+                </li>
+                <li class="bg-greenTeal bg-opacity-10 p-4 rounded-lg flex justify-between">
+                    <p class="text-greenTeal font-bold">Verbal</p>
+                    <p class="font-bold">61 / 100</p>
+                </li>
+                <li class="bg-paleBlue bg-opacity-30 p-4 rounded-lg flex justify-between">
+                    <p class="text-cobaltBlue font-bold">Visual</p>
+                    <p class="font-bold">73 / 100</p>
+                </li>
+                <button class="bg-darkGrayBlue text-white p-4 rounded-full text-2xl font-bold">Continue</button>
+            </ul>
+        </div>
+    </div> 
 </body>
 </html>
