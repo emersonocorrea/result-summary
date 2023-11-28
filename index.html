@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="src/assets/img/favicon-32x32.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="src/scripts/tailwind.js" defer></script>
+    <script src="https://kit.fontawesome.com/9549ba4e78.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +15,10 @@
     
     <title>Result Summary</title>
 </head>
-<body class="font-['hanken']">
-    <div>
-        <div class="container bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-white rounded-b-3xl p-4">
-            <div class="container flex flex-col gap-4 items-center">
+<body class="font-['hanken'] md:bg-paleBlue ">
+    <div class="container mx-auto  flex flex-col md:flex-row justify-center md:w-4/5 bg-white rounded-3xl">
+        <div class=" bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-white rounded-b-3xl p-4 md:w-1/4 grow md:rounded-3xl">
+            <div class="container flex flex-col gap-4 items-center md:mt-16">
                 <small class="text-2xl text-lightLavender">Your Result</small>
                 <div class="rounded-full bg-gradient-to-b from-lightRoyalBlue to-transparent w-28 h-28 flex flex-col items-center justify-center">
                     <h1 class="text-7xl font-extrabold">76</h1>
@@ -29,26 +30,26 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white">
-            <ul class="p-4 flex flex-col gap-4">
+        <div class="bg-white md:w-1/4 grow">
+            <ul class="p-4 flex flex-col gap-4 ">
                 <h3 class="font-bold text-2xl">Summary</h3>
                 <li class="bg-lightRed bg-opacity-10 p-4 rounded-lg flex justify-between">
-                    <p class="text-lightRed font-bold">Reaction</p>
+                    <p class="text-lightRed font-bold"><i class="fa-solid fa-bolt mr-1.5"></i>Reaction</p>
                     <p class="font-bold">80 / 100</p>
                 </li>
                 <li class="bg-orangeyYellow bg-opacity-10 p-4 rounded-lg flex justify-between">
-                    <p class="text-orangeyYellow font-bold">Memory</p>
+                    <p class="text-orangeyYellow font-bold"><i class="fa-solid fa-brain mr-1.5"></i>Memory</p>
                     <p class="font-bold">92 /100</p>
                 </li>
                 <li class="bg-greenTeal bg-opacity-10 p-4 rounded-lg flex justify-between">
-                    <p class="text-greenTeal font-bold">Verbal</p>
+                    <p class="text-greenTeal font-bold"><i class="fa-regular fa-comment mr-1.5"></i>Verbal</p>
                     <p class="font-bold">61 / 100</p>
                 </li>
                 <li class="bg-paleBlue bg-opacity-30 p-4 rounded-lg flex justify-between">
-                    <p class="text-cobaltBlue font-bold">Visual</p>
+                    <p class="text-cobaltBlue font-bold"><i class="fa-regular fa-eye mr-1.5"></i>Visual</p>
                     <p class="font-bold">73 / 100</p>
                 </li>
-                <button class="bg-darkGrayBlue text-white p-4 rounded-full text-2xl font-bold">Continue</button>
+                <button class="bg-darkGrayBlue text-white p-4 rounded-full text-2xl font-bold hover:bg-cobaltBlue">Continue</button>
             </ul>
         </div>
     </div> 
