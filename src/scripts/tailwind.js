@@ -2,7 +2,7 @@ tailwind.config = {
     theme: {
         fontFamily: {
             'hanken': ['Hanken Grotesk', 'sans-serif']
-        },
+        },        
       extend: {
         colors: {
             lightRed: 'hsl(0, 100%, 67%)',
